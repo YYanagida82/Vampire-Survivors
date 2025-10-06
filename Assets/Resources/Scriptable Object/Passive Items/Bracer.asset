@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0010e15803f13434db324de19822ee1a, type: 3}
+  m_Name: Bracer
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveData
+  icon: {fileID: -3898314384030463136, guid: fcc9d2619bbecf140a128929b8e9db6d, type: 3}
+  maxLevel: 5
+  evolutionData:
+  - name: "\u7121\u9650\u306E\u5203"
+    condition: 1
+    consumes: 0
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 806c90ee0e113fc46a1b58514394391d, type: 2}
+      level: 8
+    outcome:
+      itemType: {fileID: 11400000, guid: c3d4241e135141845988ece3e3ed9af5, type: 2}
+      level: 1
+  baseStats:
+    name: "\u8155\u7532"
+    description: "\u767A\u5C04\u7269\u306E\u901F\u5EA6\u304C10%\u30A2\u30C3\u30D7"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.1
+      magnet: 0
+  growth:
+  - name: Lv.2
+    description: "\u57FA\u672C\u901F\u5EA6\u304C10%\u30A2\u30C3\u30D7"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.1
+      magnet: 0
+  - name: Lv.3
+    description: "\u57FA\u672C\u901F\u5EA6\u304C10%\u30A2\u30C3\u30D7"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.1
+      magnet: 0
+  - name: Lv.4
+    description: "\u57FA\u672C\u901F\u5EA6\u304C10%\u30A2\u30C3\u30D7"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.1
+      magnet: 0
+  - name: Lv.5
+    description: "\u57FA\u672C\u901F\u5EA6\u304C10%\u30A2\u30C3\u30D7"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0
+      might: 0
+      speed: 0.1
+      magnet: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40aa1170f831e494f8ee862eeaac5ce5, type: 3}
+  m_Name: Wave_14-15
+  m_EditorClassIdentifier: Assembly-CSharp::WaveData
+  possibleSpawnObjects:
+  - {fileID: 1192875956456368497, guid: 4742dd358131bb747b2c2394370ea33b, type: 3}
+  - {fileID: 2760174825378347982, guid: a3e739720d6d2b64888264910e7941fc, type: 3}
+  spawnInterval: {x: 0.1, y: 0.1}
+  spawnPerTick: {x: 1, y: 1}
+  duration: 60
+  startingCount: 20
+  totalSpawns: 4294967295
+  exitCondition: 1
+  mustKillAll: 0
+  spawnCount: 0

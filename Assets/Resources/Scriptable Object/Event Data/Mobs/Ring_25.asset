@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bae94281972e84dbf60bb9a7b27b94, type: 3}
+  m_Name: Ring_25
+  m_EditorClassIdentifier: Assembly-CSharp::RingEventData
+  possibleSpawnObjects:
+  - {fileID: 6647460760497126445, guid: ab85664a9cf1f914ba3b17600e760d50, type: 3}
+  spawnInterval: {x: 5, y: 5}
+  spawnPerTick: {x: 100, y: 100}
+  duration: 40
+  probability: 1
+  luckFactor: 1
+  activeAfter: 1500
+  spawnEffectPrefab: {fileID: 7460480272033635236, guid: fcdd43d3729391b46b409e597b7f6bc8, type: 3}
+  effectAudioVolume: 0.2
+  scale: {x: 3, y: 2}
+  spawnRadius: 10
+  lifespan: 30

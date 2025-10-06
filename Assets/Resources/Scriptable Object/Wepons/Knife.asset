@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26583aaddf29c4441b09536b6e8869bd, type: 3}
+  m_Name: Knife
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  icon: {fileID: 4899227789284837310, guid: fcc9d2619bbecf140a128929b8e9db6d, type: 3}
+  maxLevel: 8
+  evolutionData:
+  - name: "\u7121\u9650\u306E\u5203"
+    condition: 1
+    consumes: 2
+    evolutionLevel: 8
+    catalysts:
+    - itemType: {fileID: 11400000, guid: d196747a93a434b42a6146c312facb1e, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: c3d4241e135141845988ece3e3ed9af5, type: 2}
+      level: 1
+  behaviour: ProjectileWeapon
+  baseStats:
+    name: "\u30CA\u30A4\u30D5"
+    description: "\u5411\u3044\u3066\u3044\u308B\u65B9\u5411\u3078\u7D20\u65E9\u304F\u653B\u6483\u3092\u7E70\u308A\u51FA\u3059\u3002"
+    projectilePrefab: {fileID: -7655911324683362405, guid: 7cf83d624999430418859001fe753f5d, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    hitSound: {fileID: 8300000, guid: 7698cf069fdf5e94a95a285fd28b6e54, type: 3}
+    lifespan: 3
+    damage: 6.5
+    damageVariance: 2
+    area: 1.5
+    speed: 10
+    cooldown: 1
+    projectileInterval: 0.1
+    knockback: 0.5
+    number: 1
+    piercing: 1
+    maxInstances: 70
+    appliedBuffs:
+    - data: {fileID: 0}
+      variant: 0
+      probability: 1
+  linearGrowth:
+  - name: Lv.2
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.3
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0\u3002\u57FA\u672C\u30C0\u30E1\u30FC\u30B8\u304C5\u30A2\u30C3\u30D7"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.4
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.5
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.6
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.7
+    description: "\u767A\u5C04\u7269\u304C1\u5897\u52A0\u3002\u57FA\u672C\u30C0\u30E1\u30FC\u30B8\u304C5\u30A2\u30C3\u30D7"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+    appliedBuffs: []
+  - name: Lv.8
+    description: "\u65751\u4F53\u3092\u8CAB\u901A"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: -0.5
+      y: -0.5
+      width: 1
+      height: 1
+    hitSound: {fileID: 0}
+    lifespan: 0
+    damage: 5
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+    appliedBuffs: []
+  randomGrowth: []

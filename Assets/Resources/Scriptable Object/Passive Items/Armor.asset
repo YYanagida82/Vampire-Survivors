@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0010e15803f13434db324de19822ee1a, type: 3}
+  m_Name: Armor
+  m_EditorClassIdentifier: Assembly-CSharp::PassiveData
+  icon: {fileID: 7393525680750344937, guid: fcc9d2619bbecf140a128929b8e9db6d, type: 3}
+  maxLevel: 5
+  evolutionData: []
+  baseStats:
+    name: "\u93A7"
+    description: "\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C1\u6E1B\u5C11"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 1
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
+      magnet: 0
+      revival: 0
+  growth:
+  - name: Lv.2
+    description: "\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C1\u6E1B\u5C11"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 1
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
+      magnet: 0
+      revival: 0
+  - name: Lv.3
+    description: "\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C1\u6E1B\u5C11"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 1
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
+      magnet: 0
+      revival: 0
+  - name: Lv.4
+    description: "\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C1\u6E1B\u5C11"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 1
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
+      magnet: 0
+      revival: 0
+  - name: Lv.5
+    description: "\u53D7\u3051\u308B\u30C0\u30E1\u30FC\u30B8\u304C1\u6E1B\u5C11"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 1
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      luck: 0
+      growth: 0
+      greed: 0
+      curse: 0
+      magnet: 0
+      revival: 0

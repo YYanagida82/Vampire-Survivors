@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1033bd792ab5b48b1334627dd25380, type: 3}
+  m_Name: Antonio
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  icon: {fileID: 5920403861974754022, guid: ae203e2c2488b874abd1cfbeca1326a6, type: 3}
+  controller: {fileID: 22100000, guid: f06d3e96904aa9641a8354b68e3a9adf, type: 2}
+  name: "\u30A2\u30F3\u30C8\u30CB\u30AA"
+  fullName: "\u30A2\u30F3\u30C8\u30CB\u30AA\u30FB\u30D9\u30EB\u30DA\u30FC\u30BC"
+  characterDescription: "10\u30EC\u30D9\u30EB\u3054\u3068\u306B\u4E0E\u30C0\u30E1\u30FC\u30B8\u304C10%\u5897\u52A0(\u6700\u5927+50%)"
+  startingWeapon: {fileID: 11400000, guid: 974fadccf59647641b049fd4d3ea451a, type: 2}
+  curvePassives:
+  - stat: might
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0.011111111
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10
+        value: 0.1
+        inSlope: 0.010555556
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 20
+        value: 0.2
+        inSlope: 0.01
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 30
+        value: 0.3
+        inSlope: 0.01
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 40
+        value: 0.4
+        inSlope: 0.01
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 50
+        value: 0.5
+        inSlope: 0.01
+        outSlope: Infinity
+        tangentMode: 97
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  stats:
+    maxHealth: 120
+    recovery: 0
+    armor: 1
+    moveSpeed: 1
+    might: 1
+    area: 1
+    speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
+    luck: 1
+    growth: 1
+    greed: 1
+    curse: 1
+    magnet: 1
+    revival: 0

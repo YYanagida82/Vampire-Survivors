@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a51d242a83cf9f44ab2e88dc24aa4ab, type: 3}
+  m_Name: Mob_13
+  m_EditorClassIdentifier: Assembly-CSharp::MobEventData
+  possibleSpawnObjects:
+  - {fileID: 235195640699374792, guid: 247e4b48159461b4bb81a9e96915b0e3, type: 3}
+  spawnInterval: {x: 0.5, y: 1}
+  spawnPerTick: {x: 20, y: 20}
+  duration: 30
+  probability: 1
+  luckFactor: 1
+  activeAfter: 780
+  possibleAngles: 360
+  spawnRadius: 6
+  spawnDistance: 40
