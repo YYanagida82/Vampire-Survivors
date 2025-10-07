@@ -12,12 +12,21 @@ public class PropRandomizer : MonoBehaviour
     
     void SpawnProps()
     {
+        // 未設定の場合は何もしない
+        if (propPrefabs == null || propPrefabs.Count == 0) return;
+        if (propSpawnPoints == null || propSpawnPoints.Count == 0) return;
+        if (ObjectPool.instance == null) return;
+
         // 各スポーンポイントにランダムなオブジェクトを配置
         foreach (GameObject sp in propSpawnPoints)
         {
+            if (sp == null) continue;
+
             int randomIndex = Random.Range(0, propPrefabs.Count);
+
             GameObject prop = ObjectPool.instance.Get(propPrefabs[randomIndex], sp.transform.position, Quaternion.identity);
-            prop.transform.parent = sp.transform; // スポーンポイントの子オブジェクトに設定
+
+            if (prop != null) prop.transform.parent = sp.transform; // スポーンポイントの子オブジェクトに設定
         }
     }
 }
