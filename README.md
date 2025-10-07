@@ -27,6 +27,20 @@
 
 ---
 
+## 使用素材
+
+本プロジェクトでは、以下のフリー素材を利用させていただいております。
+-   **ゲームスプライト**: 
+    - [OpenGameArt](https://opengameart.org/)
+-   **BGM・効果音**: 
+    - [freesound](https://freesound.org/)
+    - [MusMus](https://musmus.main.jp/)
+    - [効果音ラボ](https://soundeffect-lab.info/)
+-   **フォント**: 
+    - [PixelMplus (ピクセル・エムプラス)](https://itouhiro.hatenablog.com/entry/20130602/font)
+
+---
+
 ## 実装済みの機能
 
 -   **キャラクター選択**: 開始時に異なる能力を持つキャラクターを選択できます。
