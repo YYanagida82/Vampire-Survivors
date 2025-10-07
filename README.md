@@ -1,5 +1,7 @@
 # [Vampire Survivors Clone](https://yyanagida82.github.io/Vampire-Survivors-Clone/)
 
+![vampiresuvivors](https://github.com/user-attachments/assets/ecd3f3b1-00bd-480d-a904-a5c618431978)
+
 ---
 
 ## 概要
