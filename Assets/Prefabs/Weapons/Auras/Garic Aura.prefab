@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7966643408011433048}
   - component: {fileID: 6614267370932406203}
   - component: {fileID: 2999024377914414949}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Garic Aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}

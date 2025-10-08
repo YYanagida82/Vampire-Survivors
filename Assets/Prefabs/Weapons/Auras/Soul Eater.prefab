@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5653293495712739074}
   - component: {fileID: -7124516560295155469}
   - component: {fileID: 4259445476769038759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Soul Eater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4901,7 +4901,7 @@ GameObject:
   - component: {fileID: 6784642974955367103}
   - component: {fileID: 3301579706567601036}
   - component: {fileID: 5078366021911131423}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Balls of Darkness
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9737,7 +9737,7 @@ GameObject:
   - component: {fileID: 135573772011056989}
   - component: {fileID: 3090970649742406932}
   - component: {fileID: 7592385841386468867}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Smaller Aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14574,7 +14574,7 @@ GameObject:
   - component: {fileID: 3948381008112960808}
   - component: {fileID: 4853203439950824079}
   - component: {fileID: 6441216347555107749}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Balls of Darkness
   m_TagString: Untagged
   m_Icon: {fileID: 0}

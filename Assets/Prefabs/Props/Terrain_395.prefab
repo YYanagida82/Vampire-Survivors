@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 175091036259413520}
   - component: {fileID: -3562045015650082073}
   - component: {fileID: -2249947810878011882}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Terrain_395
   m_TagString: Prop
   m_Icon: {fileID: 0}

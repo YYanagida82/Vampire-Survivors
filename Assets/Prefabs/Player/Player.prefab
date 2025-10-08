@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 762955520559506202}
   - component: {fileID: 729157479283753267}
   - component: {fileID: 337630211971310815}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 4334478267342891938}
   - component: {fileID: 1806594324519473171}
   - component: {fileID: 7192876262791995322}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 8859606660113027957}
   - component: {fileID: 7630980956779659973}
   - component: {fileID: 549908280671334992}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 2303063080496890884}
   - component: {fileID: 6495950353786531631}
   - component: {fileID: 3143692049926154135}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Health Bar Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}

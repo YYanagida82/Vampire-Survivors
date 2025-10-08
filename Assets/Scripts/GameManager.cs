@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
     public float textFontSize = 20;
     public TMP_FontAsset textFont;
     public Camera referenceCamera;
-    public TextMeshProUGUI damageTextPrefab;
+    public FloatingText damageTextPrefab;
 
     [Header("Screens")]
     public GameObject pauseScreen;  // 一時停止画面
@@ -46,6 +46,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Debug")]
     public TextMeshProUGUI totalObjectCountDisplay;
+
+    private float debugDisplayUpdateInterval = 1.0f; // 1秒ごとに更新
+    private float debugDisplayTimer = 0f;
 
     PlayerStats[] players;  // プレイヤー
 
@@ -115,7 +118,13 @@ public class GameManager : MonoBehaviour
                 // ゲームプレイ中の処理
                 CheckForPauseAndResume();
                 UpdateStopwatch();
-                UpdateDebugDisplay();   // デバッグ情報の更新
+                
+                debugDisplayTimer += Time.deltaTime;
+                if (debugDisplayTimer >= debugDisplayUpdateInterval)
+                {
+                    UpdateDebugDisplay();   // デバッグ情報の更新
+                    debugDisplayTimer = 0f;
+                }
                 break;
             case GameState.Paused:
                 // 一時停止中の処理
@@ -339,25 +348,20 @@ public class GameManager : MonoBehaviour
         // 取得できなかった場合は処理を中断
         if (!textObj) yield break;
 
-        TextMeshProUGUI tmPro = textObj.GetComponent<TextMeshProUGUI>();
-        RectTransform rect = textObj.GetComponent<RectTransform>();
+        FloatingText floatingText = textObj.GetComponent<FloatingText>();
 
         // 取得したコンポーネントが存在しない場合はエラー
-        if (tmPro == null || rect == null)
+        if (floatingText == null)
         {
-            Debug.LogError("ダメージテキストPrefabにTextMeshProUGUI または RectTransformがアタッチされていません！");
+            Debug.LogError("ダメージテキストPrefabにFloatingTextがアタッチされていません！");
             ObjectPool.instance.Return(textObj);
             yield break;
         }
 
-        tmPro.text = text;
-        tmPro.horizontalAlignment = HorizontalAlignmentOptions.Center;
-        tmPro.verticalAlignment = VerticalAlignmentOptions.Middle;
-        tmPro.fontSize = textFontSize;
-        if (textFont) tmPro.font = textFont;
+        floatingText.Setup(text, referenceCamera, textFontSize, textFont);
 
         // 画面座標を設定
-        rect.position = referenceCamera.WorldToScreenPoint(target.position);
+        floatingText.SetPosition(target.position, referenceCamera);
 
         // 追記: 生成されたテキストオブジェクトをキャンバスの子として設定
         // ObjectPool.Get()では親がObjectPoolになっているため、Canvasの子に戻す必要があります
@@ -370,12 +374,12 @@ public class GameManager : MonoBehaviour
         float yOffset = 0;
         while (t < duration)
         {
-            tmPro.color = new Color(tmPro.color.r, tmPro.color.g, tmPro.color.b, 1 - t / duration);
+            floatingText.SetColorAlpha(1 - t / duration);
 
             yOffset += speed * Time.deltaTime;
-            if (target != null && rect != null)
+            if (target != null)
             {
-                rect.position = referenceCamera.WorldToScreenPoint(target.position + new Vector3(0, yOffset));
+                floatingText.SetPosition(target.position, referenceCamera, yOffset);
             }
             t += Time.deltaTime;
             yield return w;

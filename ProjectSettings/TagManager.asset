@@ -15,11 +15,11 @@ TagManager:
   - UI
   - Terrain
   - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Projectile
+  - 'Aura '
+  - Pickup
+  - Wall
   - 
   - 
   - 

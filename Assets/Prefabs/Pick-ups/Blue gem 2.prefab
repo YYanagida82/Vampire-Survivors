@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -7462904172446810979}
   - component: {fileID: -4034659691232232886}
   - component: {fileID: 2761262295094666319}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Blue gem 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,6 +170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Pickup
   sortingActive: 1
   minimumDistance: 0.2
+  type: 0
   bobbingAnimation:
     frequency: 2
     direction: {x: 0, y: 0.3}

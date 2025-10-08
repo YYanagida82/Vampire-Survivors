@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Projectile : WeaponEffect  // 発射武器クラス
@@ -73,12 +74,12 @@ public class Projectile : WeaponEffect  // 発射武器クラス
     {
         float aimAngle;
 
-        EnemyStats[] targets = FindObjectsByType<EnemyStats>(FindObjectsSortMode.None);
+        List<EnemyStats> targets = EnemyStats.activeEnemies;
 
-        if (targets.Length > 0)
+        if (targets.Count > 0)
         {
             // 最も近い敵をランダムに選択
-            EnemyStats selectedTarget = targets[Random.Range(0, targets.Length)];
+            EnemyStats selectedTarget = targets[Random.Range(0, targets.Count)];
             Vector2 difference = selectedTarget.transform.position - transform.position;
             aimAngle = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         }

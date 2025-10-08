@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309920594472752702}
   - component: {fileID: 4596040286105995681}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: pixelarmory_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: -7641556554288211471}
   - component: {fileID: -7655911324683362405}
   - component: {fileID: -7293379591858134614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}

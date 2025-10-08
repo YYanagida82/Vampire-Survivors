@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8557263872458120126}
   - component: {fileID: 8622751382675521557}
   - component: {fileID: 344636786726020568}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4910,7 +4910,7 @@ GameObject:
   - component: {fileID: 318790668371797213}
   - component: {fileID: -1026784410561497279}
   - component: {fileID: 8779978096358752960}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Lightning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9922,7 +9922,7 @@ GameObject:
   - component: {fileID: 3320942309707689162}
   - component: {fileID: 4414381235520477390}
   - component: {fileID: 8829582262817742510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}

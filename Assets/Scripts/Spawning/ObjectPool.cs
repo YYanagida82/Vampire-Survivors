@@ -133,20 +133,13 @@ public class ObjectPool : MonoBehaviour
                     tr.Clear(); // 過去の軌跡データを完全にリセット
                 }
 
-                // TextMeshProUGUIがあればテキストをクリアする
-                if (obj.TryGetComponent<TextMeshProUGUI>(out TextMeshProUGUI tmPro))
-                {
-                    tmPro.text = string.Empty; // テキストの内容を空にする
-                    tmPro.color = Color.white; // 色もデフォルトに戻す（GameManagerで色を変えているため）
-                }
-
                 // プールに戻す際、非アクティブにする（必須）
                 obj.SetActive(false);
             },
             actionOnDestroy: OnDestroyed,       // オブジェクト破棄時の処理
             collectionCheck: true,              // 既にプールにあるオブジェクトを返却しようとした際にエラーを出すか
             defaultCapacity: 10,                // 初期容量（事前に生成しておくオブジェクトの数）
-            maxSize: 3000                       // プールに保持できる最大数
+            maxSize: 5000                       // プールに保持できる最大数
         );
         pools.Add(prefab, newPool);
     }
